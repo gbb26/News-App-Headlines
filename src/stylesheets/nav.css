@@ -1,0 +1,19 @@
+.nav-link:hover{
+    color: #000;
+}
+.navbar-brand{
+    font-size:x-large;
+}
+.navbar{
+    background-color: burlywood;
+}
+.navbar-nav{
+    text-align: center;
+    font-style: 1.3em;
+}
+@media (max-width:980px)
+{
+    .navbar-nav > .nav-item{
+        border-bottom: 1px solid #000;
+    }
+}
