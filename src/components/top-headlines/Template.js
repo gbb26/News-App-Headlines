@@ -7,7 +7,7 @@ function Template(props) {
   <div className="card-body">
     <h5 className="card-title">{props.title}...</h5>
     <p className="card-text">{props.desc}...</p>
-    <h6 className='h6'>{props.auth}</h6>
+    <h6 className='h6' style={{color:'#eb6864'}} >{props.auth}</h6>
     <a href={props.lnk} className="btn btn-primary">Read More...</a>
 </div>
 </>
