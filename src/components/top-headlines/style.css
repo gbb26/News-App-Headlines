@@ -1,39 +1,45 @@
-.container-fluid{
-    display:flex;
+.container-fluid {
+    display: flex;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
     align-items: center;
 }
-.card{
-    height:480px;
-    padding-bottom:5px;
+
+.card {
+    height: 480px;
+    padding-bottom: 5px;
     width: 300px;
     background-color: rgb(189, 180, 168);
     border: none;
     box-sizing: border-box;
-    
-}
-.card:hover{
-    border: 1px solid burlywood;
-}
-.card > .visuals{
-    height:50%;
 
 }
-.btn{
-    margin-bottom:8px;
+
+.card:hover {
+    border: 1px solid burlywood;
 }
-@media (max-width:768px)
-{
-    .card{
-        width:100%;
-        height:auto;
+
+.card>.visuals {
+    height: 50%;
+
+}
+
+.btn {
+    margin-bottom: 8px;
+}
+
+@media (max-width:768px) {
+    .card {
+        width: 100%;
+        height: auto;
     }
-    .container{
+
+    .container {
         width: 100%;
     }
 }
-.btn{
+
+.btn {
     margin: 16px 6px;
 }
